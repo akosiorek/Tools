@@ -4,7 +4,8 @@ echo "Installing pcl from git"
 echo "Cloning into github"
 
 echo "Resolving dependecies"
-sudo apt-get install -y git libeigen3-dev libopenni-dev libeigen3-dev libqt4-dev libvtk5-qt4-dev libflann-dev libusb-1.0
+sudo apt-get install -y git libeigen3-dev libqt4-dev libvtk5-qt4-dev libflann-dev libusb-1.0
+sudo apt-get install -y libarchive-dev libghc-bzlib-dev libflann-dev libusb-dev libopenni-dev
 mkdir tmp
 cd tmp
 git clone https://github.com/PointCloudLibrary/pcl pcl-trunk
