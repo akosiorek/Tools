@@ -15,5 +15,7 @@ echo "Installing libraries"
 #	Libraries
 sudo apt-get install -y build-essential g++ libusb-1.0 libqt4-dev
 sudo apt-get install -y libeigen3-dev libvtk5-qt4-dev libflann-dev
+sudo apt-get install -y openjdk-7-jre
+
 sudo ldconfig -v
 echo "Finished"
