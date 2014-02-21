@@ -24,7 +24,7 @@ sudo apt-get -y install libqt4-dev libgtk2.0-dev
 sudo apt-get -y install libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev
 sudo apt-get -y install x264 v4l-utils ffmpeg
 echo "Downloading OpenCV 2.4.6"
-wget -O OpenCV-2.4.5.tar.gz http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.6/opencv-2.4.6.tar.gz/download
+wget -O OpenCV-2.4.6.tar.gz http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.6/opencv-2.4.6.tar.gz/download
 echo "Installing OpenCV 2.4.6"
 tar -xvf OpenCV-2.4.6.tar.gz
 cd opencv-2.4.6
