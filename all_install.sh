@@ -4,6 +4,8 @@ echo "Starting"
 
 #	Setting up bash
 cp .bashrc ~/
+echo "synclient VertTwoFingerScroll=1" >> ~/.profile
+echo "xbacklight = 0" >> ~/.profile
 
 #	Common tools
 sudo ./common_install.sh

@@ -1,0 +1,3 @@
+#!/bin/bash
+synclient VertTwoFingerScroll=1
+xbackklight = 0

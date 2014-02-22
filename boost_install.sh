@@ -8,7 +8,7 @@ cd tmp
 
 #	Downloading Boost
 echo "Cloning Boost Repository"
-#svn co http://svn.boost.org/svn/boost/trunk boost-trunk
+svn co http://svn.boost.org/svn/boost/trunk boost-trunk
 cd boost-trunk
 echo "Configuring Boost"
 sudo ./bootstrap.sh --prefix=/usr/local
