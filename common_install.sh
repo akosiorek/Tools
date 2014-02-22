@@ -39,4 +39,9 @@ echo "Installing libraries"
  apt-get install -y openjdk-7-jre openjdk-7-jdk
 
  ldconfig -v
+
+#	Configure
+./configure.sh
+
+
 echo "Finished"
