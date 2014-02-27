@@ -16,7 +16,7 @@ apt-get install -y doxygen
 apt-get install -y git
 apt-get install -y gitk
 apt-get install -y subversion
-apt-get install -y vim
+apt-get install -y vim vimdiff
 apt-get install -y xbacklight
 apt-get install -y qtcreator
 apt-get install -y google-chrome-stable
@@ -42,6 +42,6 @@ echo "Installing libraries"
 
 #	Configure
 ./configure.sh
-
+./gitconfig.sh
 
 echo "Finished"
