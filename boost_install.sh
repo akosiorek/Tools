@@ -2,7 +2,7 @@
 
 
 echo "Resolving dependencies"
-sudo apt-get install -y subersion build-essential g++ python-dev autotools-dev libicu-dev libbz2-dev 
+sudo apt-get install -y subversion build-essential g++ python-dev autotools-dev libicu-dev libbz2-dev 
 mkdir tmp
 cd tmp
 
