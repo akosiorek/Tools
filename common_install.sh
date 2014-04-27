@@ -6,6 +6,9 @@ add-apt-repository ppa:bumblebee/stable -y
 echo "deb http://dl.google.com/linux/deb/ stable non-free main" >> /etc/apt/sources.list
 wget -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 
+#tlp battery saver
+add-apt-repository ppa:linrunner/tlp
+
 echo "Updating system"
 apt-get update
 apt-get upgrade
@@ -21,13 +24,15 @@ apt-get install -y xbacklight
 apt-get install -y qtcreator
 apt-get install -y google-chrome-stable
 apt-get install -y python-pyp
-apt-get install -u guake
+apt-get install -y guake htop
 apt-get install -y kile texlive texlive-lang-polish
 apt-get install -y shutter
 apt-get install -y gimp
 apt-get install -y google-chrome-stable
 apt-get install -y bumblebee bumblebee-nvidia primus primus-libs-ia32 linux-headers-generic
 ./calibre_install.sh
+apt-get install -y tlp tlp-rdw
+tlp start
 
 #
 pip install numpy scipy
