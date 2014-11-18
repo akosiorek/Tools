@@ -13,7 +13,6 @@ apt-get upgrade -y
 
 echo "Installing general programmes"
 #	General programmes
-apt-get install -y python python-pip
 apt-get install -y doxygen 
 apt-get install -y git
 apt-get install -y gitk
@@ -24,8 +23,7 @@ apt-get install -y xbacklight
 apt-get install -y cmake
 apt-get install -y okular
 
-#apt-get install -y qtcreator
-apt-get install -y python-pyp
+apt-get install -y python-pip
 apt-get install -y guake htop
 apt-get install -y kile texlive texlive-lang-polish
 apt-get install -y shutter
@@ -35,9 +33,6 @@ apt-get install -y bumblebee bumblebee-nvidia primus primus-libs-ia32 linux-head
 ./chrome_install.sh
 apt-get install -y tlp tlp-rdw
 tlp start
-
-#
-pip install numpy scipy mplotlib
 
 echo "Installing libraries"
 #	Libraries
@@ -49,6 +44,8 @@ apt-get install -y libopenblas-base libopenblas-dev
 apt-get install -y libcr-dev mpich2 mpich2-doc
 apt-get install -y libprotobuf-dev protobuf-compiler
 apt-get install -y libgflags-dev libgoogle-glog-dev
+apt-get install -y libatlas-base-dev libatlas-base-dev libatlas-doc libopenblas-base libopenblas-dev
+pip install numpy scipy mplotlib
 
 ldconfig -v
 
