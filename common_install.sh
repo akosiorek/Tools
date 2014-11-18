@@ -13,6 +13,7 @@ apt-get upgrade -y
 
 echo "Installing general programmes"
 #	General programmes
+apt-get install -y python python-pip
 apt-get install -y doxygen 
 apt-get install -y git
 apt-get install -y gitk
@@ -21,6 +22,7 @@ apt-get install -y vim
 apt-get install -y vimdiff
 apt-get install -y xbacklight
 apt-get install -y cmake
+apt-get install -y okular
 
 #apt-get install -y qtcreator
 apt-get install -y python-pyp
@@ -35,7 +37,7 @@ apt-get install -y tlp tlp-rdw
 tlp start
 
 #
-pip install numpy scipy
+pip install numpy scipy mplotlib
 
 echo "Installing libraries"
 #	Libraries
