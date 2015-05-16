@@ -24,15 +24,20 @@ apt-get install -y cmake
 apt-get install -y okular
 
 apt-get install -y python-pip
+apt-get install -y python-numpy python-scipy python-matplotlib python-tk
 apt-get install -y guake htop
 apt-get install -y kile texlive texlive-lang-polish
+apt-get install -y latex-beamer latex-xcolor preview-latex-style texlive-latex-extra texlive-latex-recommended texlive-latex3
 apt-get install -y shutter
 apt-get install -y gimp
 apt-get install -y bumblebee bumblebee-nvidia primus primus-libs-ia32 linux-headers-generic
-./calibre_install.sh
-./chrome_install.sh
+
+# power management
 apt-get install -y tlp tlp-rdw
 tlp start
+
+source calibre_install.sh
+source chrome_install.sh
 
 echo "Installing libraries"
 #	Libraries
@@ -45,7 +50,6 @@ apt-get install -y libcr-dev mpich2 mpich2-doc
 apt-get install -y libprotobuf-dev protobuf-compiler
 apt-get install -y libgflags-dev libgoogle-glog-dev
 apt-get install -y libatlas-base-dev libatlas-base-dev libatlas-doc libopenblas-base libopenblas-dev
-pip install numpy scipy mplotlib
 
 ldconfig -v
 
