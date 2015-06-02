@@ -2,7 +2,6 @@
 
 #	Add repos
 echo "Adding repos"
-add-apt-repository ppa:bumblebee/stable -y
 
 #tlp battery saver
 add-apt-repository ppa:linrunner/tlp
@@ -28,15 +27,15 @@ apt-get install -y python-numpy python-scipy python-matplotlib python-tk
 apt-get install -y guake htop
 apt-get install -y kile texlive texlive-lang-polish
 apt-get install -y latex-beamer latex-xcolor preview-latex-style texlive-latex-extra texlive-latex-recommended texlive-latex3
+apt-get install -y texlive-font-utils 
 apt-get install -y shutter
 apt-get install -y gimp
-apt-get install -y bumblebee bumblebee-nvidia primus primus-libs-ia32 linux-headers-generic
+apt-get install -y calibre
 
 # power management
 apt-get install -y tlp tlp-rdw
 tlp start
 
-source calibre_install.sh
 source chrome_install.sh
 
 echo "Installing libraries"
