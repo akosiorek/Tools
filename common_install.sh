@@ -31,6 +31,7 @@ apt-get install -y texlive-font-utils
 apt-get install -y shutter
 apt-get install -y gimp
 apt-get install -y calibre
+apt-get install -y cmake-curses-gui
 
 # power management
 apt-get install -y tlp tlp-rdw
