@@ -26,12 +26,13 @@ apt-get install -y python-pip
 apt-get install -y python-numpy python-scipy python-matplotlib python-tk
 apt-get install -y guake htop
 apt-get install -y kile texlive texlive-lang-polish
-apt-get install -y latex-beamer latex-xcolor preview-latex-style texlive-latex-extra texlive-latex-recommended texlive-latex3
+apt-get install -y latex-beamer latex-xcolor preview-latex-style texlive-latex-extra texlive-latex-recommended texlive-latex3 texlive-science
 apt-get install -y texlive-font-utils 
 apt-get install -y shutter
 apt-get install -y gimp
 apt-get install -y calibre
 apt-get install -y cmake-curses-gui
+apt-get install -y pdftk
 
 # power management
 apt-get install -y tlp tlp-rdw
