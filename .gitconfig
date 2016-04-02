@@ -1,0 +1,13 @@
+[user]
+	name = Adam Kosiorek
+	email = kosiorek.adam@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[alias]
+	report = log --pretty=format:'%h - %an %ad : %s' --author='Adam Kosiorek' --since=30.days -p
+[push]
+	default = simple
+[credential]
+	helper = cache --timeout=3600
