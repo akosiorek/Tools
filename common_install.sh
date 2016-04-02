@@ -56,7 +56,7 @@ tlp start
 echo "Installing libraries"
 #	Libraries
 apt-get install -y build-essential g++ gfortran libusb-1.0 libqt4-dev
-apt-get install -y libeigen3-dev libvtk5-qt4-dev libflann-dev
+apt-get install -y libeigen3-dev libvtk5-qt4-dev libflann-dev libhdf5-dev
 apt-get install -y openjdk-7-jre openjdk-7-jdk
 apt-get install -y libboost-all-dev libboost-mpi-dev libboost-doc
 #apt-get install -y libcr-dev mpich2 mpich2-doc
@@ -64,7 +64,7 @@ apt-get install -y libprotobuf-dev protobuf-compiler
 apt-get install -y libgflags-dev libgoogle-glog-dev
 apt-get install -y libatlas-base-dev libatlas-base-dev libatlas-doc libopenblas-base libopenblas-dev
 apt-get install -y python-pip libpython2.7-dev python-matplotlib
-pip install theano scipy numpy  nose scikit-learn
+pip install theano scipy numpy nose scikit-learn cython
 
 ldconfig -v
 
