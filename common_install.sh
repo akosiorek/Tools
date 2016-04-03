@@ -64,7 +64,7 @@ apt-get install -y libprotobuf-dev protobuf-compiler
 apt-get install -y libgflags-dev libgoogle-glog-dev
 apt-get install -y libatlas-base-dev libatlas-base-dev libatlas-doc libopenblas-base libopenblas-dev
 apt-get install -y python-pip libpython2.7-dev python-matplotlib
-pip install theano scipy numpy nose scikit-learn cython
+pip install theano scipy numpy nose scikit-learn cython ipython notebook
 
 ldconfig -v
 
